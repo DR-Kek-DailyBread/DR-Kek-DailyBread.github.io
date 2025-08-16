@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gus the Cat Fanpage - Vote</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fanpage.css">
+</head>
+<body>
+<div class="wrapper">
+    <header><h1>Gus the Cat Fanpage - Vote</h1></header>
+<nav>
+    <ul>
+         <li><a href="index.html"><img src="Pics/GusNav.png" width="46" height="46" alt="Gus nav picture" class="navPicture">Home</a></li>
+         <li><a href="info.html"><img src="Pics/GusNav.png" width="46" height="46" alt="Gus nav picture" class="navPicture">Info</a></li>
+         <li><a href="pictures.html"><img src="Pics/GusNav.png" width="46" height="46" alt="Gus nav picture" class="navPicture">Pictures</a></li>
+         <li><a href="vote.html"><img src="Pics/GusNav.png" width="46" height="46" alt="Gus nav picture" class="navPicture">Vote</a></li>
+    </ul>
+</nav>
+<main>
+    <p class="paragraphClass">
+        Join the world-wide Gus the Cat community in voting for your favorite picture of Gus and deciding what he should do next. 
+        Cast your votes now!
+    </p>
+    <h2>Choose your favorite picture of Gus the Cat</h2>
+    <form method="post" action="submit.html">
+    <fieldset>
+        <legend>Select the best picture</legend>
+            <label for="favTongue1">
+            <img src="pics/Gus3Thumb.jpg" width="200" height="200" alt="Gus with his tongue out">
+            Gus with his tongue out
+            </label>
+            <input type="radio" name="favPic" id="favTongue1" value="Tongue1">
+        <br><br>
+            <label for="favTongue2">
+            <img src="pics/Gus4Thumb.jpg" width="200" height="200" alt="Gus with his tongue out again">
+            Gus with his tongue out again
+            </label>
+            <input type="radio" name="favPic" id="favTongue2" value="Tongue2">
+        <br><br>
+            <label for="favTreat">
+            <img src="pics/Gus2Thumb.jpg" width="200" height="200" alt="Gus eating a treat">
+            Gus eating a treat
+            </label>
+            <input type="radio" name="favPic" id="favTreat" value="Treat">
+        <br><br>
+            <label for="favDandy">
+            <img src="pics/GusDandyThumb.png" width="200" height="200" alt="Gus as a dandelion">
+            Gus morphing into a dandelion
+            </label>
+            <input type="radio" name="favPic" id="favDandy" value="Dandy">
+        <br><br>
+            <label for="favRedRoom">
+            <img src="pics/GusRedRoomThumb.png" width="200" height="200" alt="Gus in the Red Room">
+            Gus lost in the Red Room
+            </label>
+            <input type="radio" name="favPic" id="favRedRoom" value="RedRoom">
+    </fieldset><br>
+        <label for="Antics">What should Gus the Cat do next?</label><br>
+        <textarea name="nextAntics" id="Antics" rows="5" cols="32" placeholder="Give us your ideas!"></textarea><br>
+    <input type="submit" value="Submit Vote"> <input type="reset">
+    </form>
+</main>
+<footer>Send Gus fanmail at <a href="mailto:GusFanpage@GusFanpage.com">GusFanpage@GusFanpage.com</a>
+</footer>
+</div>
+</body>

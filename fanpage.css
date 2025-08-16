@@ -1,0 +1,136 @@
+    body {
+        background-image: url(Pics/gusBackground.png);
+        background-color: #ffe17ffd;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: auto;
+    }
+    header  {
+        text-align: center;
+        font-size: xx-large;
+        margin-bottom: 40px;
+}
+    nav     {
+        float: right;
+        position: sticky;
+        top: 2px;
+        width: 150px;
+        min-height: 227px;
+}
+    nav ul {
+        list-style-type: none;
+}
+    nav ul li {
+        background-color: #f0d067fd;
+        border: 1px solid #ffe17ffd;
+}
+    a {
+        text-decoration: none;
+}
+    main    {
+        margin-right: 160px;
+}
+    footer  {
+        margin-top: 30px;
+        margin-right: 160px;
+        font-size: small;
+        font-style: italic;
+        font-weight: bold;
+}
+    .navPicture {
+        opacity: 0;
+        transform: translateX(-2000px) scale(3);
+        transition: transform 1.6s ease-out, opacity 1s linear;
+        overflow: hidden;
+}
+    nav a:hover .navPicture {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+    .wrapper {
+         max-width: 1100px;
+         min-width: 700px;
+         margin: 0 auto;
+         background-color: #ffe17ffd;
+         min-height: 300px;
+         padding-left: 5px;
+         padding-bottom: 2px;
+}
+    dt {
+        font-weight: bold;
+        font-size: x-large;
+        margin-top: 10px;
+        margin-bottom: 3px;
+}
+    dd {
+        font-size: larger;
+    }
+    table {
+        border: 3px solid #8bdeec;
+        border-collapse: collapse;
+        margin-bottom: 40px;
+    }
+    th {
+        border: 3px solid #8bdeec;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: left;
+        padding-left: 5px;
+    }
+    td {
+        border-bottom: 3px solid #8bdeec;
+        font-size: larger;
+        padding: 5px 2px 5px 5px;
+    }
+    #tableHead {
+        font-size: xx-large;
+        text-align: center; 
+    }
+    .paragraphClass {
+        font-size: larger;
+        padding: 5px;
+    }
+    .liPics {
+        font-size: larger;
+        font-weight: bold;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+    .centered {
+        text-align: center;
+    }
+    form {
+        font-size: larger;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 3px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #8bdeec;
+        max-width: 820px;
+    }
+    fieldset {
+        margin-bottom: 5px;
+        border-style: none;
+    }
+    legend {
+        font-size: x-large;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    label[for="Antics"] {
+        font-weight: bold;
+        padding-left: 3px;
+    }
+    textarea[name="nextAntics"] {
+        margin-left: 3px;
+    }
+    input[type="submit"] {
+        font-size: large;
+        margin-right: 38px;
+        margin-left: 3px;
+    }
+    input[type="reset"] {
+        font-size: large;
+        margin-left: 38px;
+    }
